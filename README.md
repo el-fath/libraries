@@ -12,10 +12,10 @@
 This is simple App testing, and i was a candidate for web development position in TekenAja and I hope you like my app, here is the steps for set up my app:
 
 - Copy the .env.example to .env
+- Create new sql database with name "libraries"
 - Run "composer  install"
-- Make sql database
-- Run Migration
-- Run Seeder
+- Run "php artisan migrate"
+- Run "php artisan db:seed"
 - Run "php artisan serve"
 - Login with admin user "evan@mail.com" password "password"
 - Create author first before create book
