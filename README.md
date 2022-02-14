@@ -16,6 +16,9 @@ This is simple App testing, and i was a candidate for web development position i
 - Make sql database
 - Run Migration
 - Run Seeder
+- Run "php artisan serve"
+- Login with admin user "evan@mail.com" password "password"
+- Please, enjoy the app
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
