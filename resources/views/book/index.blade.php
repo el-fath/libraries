@@ -38,6 +38,11 @@
                         </thead>
                         <tbody>
                             @php $no = 1; @endphp
+                            @if ($data['book']->count() == 0)
+                                <tr>
+                                    <td align="center" colspan="4">data still empty</td>
+                                </tr>
+                            @endif
                             @foreach ($data['book'] as $i)
                             <tr>
                                 <td align="center">{{ $no++ }}</td>
