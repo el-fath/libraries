@@ -18,6 +18,7 @@ This is simple App testing, and i was a candidate for web development position i
 - Run Seeder
 - Run "php artisan serve"
 - Login with admin user "evan@mail.com" password "password"
+- Create author first before create book
 - Please, enjoy the app
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
