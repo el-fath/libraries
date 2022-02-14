@@ -51,7 +51,7 @@
                                 <td>{{ $i->email }}</td>
                                 <td>{{ $i->roles()->where('name', '=', 'admin')->exists() ? 'admin' : 'user'}}</td>
                                 <td>
-                                    <form action="{{ route('authors.destroy', $i->id) }}" id="form-delete" method="post">
+                                    <form action="{{ route('users.destroy', $i->id) }}" id="form-delete{{$i->id}}" method="post">
                                         {{ csrf_field() }}
                                         {{ method_field('DELETE') }}
                                         <a class="btn btn-sm btn-success" 
@@ -59,7 +59,7 @@
                                             data-toggle="modal" data-target="#ActionModal">
                                             Edit
                                         </a> |
-                                        <button class="btn btn-sm btn-danger" type="submit" form="form-delete" onclick="return confirm('Are you sure to delete this data ?')" >Delete</button>
+                                        <button class="btn btn-sm btn-danger" type="submit" form="form-delete{{$i->id}}" onclick="return confirm('Are you sure to delete this data {{$i->id}}?')" >Delete</button>
                                     </form>
                                 </td>
                             </tr>

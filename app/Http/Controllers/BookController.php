@@ -44,9 +44,15 @@ class BookController extends Controller
      */
     public function store(Request $request)
     {
-        $data = Book::Create($request->all());
-
-        return redirect()->route('books.index', compact('data'))->with('message', "Add data for id {$data->id} success");
+        $authors = Author::get();
+        if($authors->count() == 0 ) {
+            $message = "Please create author first before create a book";
+            return redirect()->route('books.index')->with('message', $message);
+        } else {
+            $data = Book::Create($request->all());
+            $message = "Add data for id {$data->id} success";
+            return redirect()->route('books.index', compact('data'))->with('message', $message);
+        }
     }
 
     /**
