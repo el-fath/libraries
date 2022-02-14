@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## About Libraries App Test For Join With TekenAja
+## Simple Libraries App Test For Joining With TekenAja
 
 This is simple App testing, and i was a candidate for web development position in TekenAja and I hope you like my app, here is the steps for set up my app:
 
