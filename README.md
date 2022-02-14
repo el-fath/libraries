@@ -7,6 +7,18 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## About Libraries App Test For Join With TekenAja
+
+This is simple App testing, and i was a candidate for web development position in TekenAja and I hope you like my app, here is the steps for set up my app:
+
+- Copy the .env.example to .env
+- Run "composer  install"
+- Make sql database
+- Run Migration
+- Run Seeder
+
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
