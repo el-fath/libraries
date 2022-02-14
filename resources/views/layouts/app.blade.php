@@ -71,7 +71,7 @@
                                     @if (Auth::user()->roles()->where('name', '=', 'admin')->exists())
                                         - Admin
                                     @else
-                                        - User 
+                                        - Non Admin 
                                     @endif
                                 </a>
 
