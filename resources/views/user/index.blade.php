@@ -92,11 +92,11 @@
                 <div class="modal-body">
                     <div class="form-group">
                         <label for="name" class="col-form-label">Name</label>
-                        <input type="text" class="form-control" id="name" name="name">
+                        <input type="text" class="form-control" id="name" name="name" required>
                     </div>
                     <div class="form-group">
                         <label for="email" class="col-form-label">Email</label>
-                        <input type="text" class="form-control" id="email" name="email">
+                        <input type="text" class="form-control" id="email" name="email" required>
                     </div>
                     <div class="form-group" id="input-password">
                         <label for="password" class="col-form-label">Default Password</label>
